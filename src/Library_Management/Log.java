@@ -106,7 +106,7 @@ public void logIn(String file) throws FileNotFoundException {
 			System.out.println("Welcome "+lg[n].firstName+ " "+lg[n].lastName);
 			while(true) {
 		System.out.println();
-		System.out.println("Enter [0] to exit");
+		System.out.println("Enter [0] to go back to main menu");
 		System.out.println("Enter [1] for see the book list");
 		System.out.println("Enter [2] for Book List with Writer name and catagory");
 		System.out.println("Enter [3] for Search Book");

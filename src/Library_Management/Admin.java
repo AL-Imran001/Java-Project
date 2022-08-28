@@ -86,13 +86,13 @@ public class Admin {
 		Log log = new Log();
 		Books book = new Books();
 		System.out.println();
-		System.out.println("Enter [0] to exit");
-		System.out.println("Enter [1] to see the members list");
-		System.out.println("Enter [2] for search a member for phone number and address");
-		System.out.println("Enter [3] for delete account");
-		System.out.println("Enter [4] for add a book");
-		System.out.println("Enter [5] for see book list");
-		System.out.println("Enter [6] for Book List with Writer name and catagory");
+		System.out.println("\tEnter [0] to go back to main menu");
+		System.out.println("\tEnter [1] to see the members list");
+		System.out.println("\tEnter [2] for search a member for phone number and address");
+		System.out.println("\tEnter [3] for delete account");
+		System.out.println("\tEnter [4] for add a book");
+		System.out.println("\tEnter [5] for see book list");
+		System.out.println("\tEnter [6] for Book List with Writer name and catagory");
 		int choice = s.nextInt();
 		switch(choice) {
 		case 0:
@@ -120,8 +120,11 @@ public class Admin {
 		}
 		}
 		}
-		else
-			System.out.println("Email is incorect");
+		else {
+			System.out.println("Email or password is incorect");
+			System.out.println("Try again from main menu");
+		}
+		
 	}
 
 }
